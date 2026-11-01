@@ -2,11 +2,17 @@
 
 The site for [unionstreetgaming.com](https://unionstreetgaming.com): a simple game selector.
 
-It's plain static HTML and CSS with no build step. Open `index.html` in a browser to preview it.
+It's plain static HTML, CSS, and JS with no build step. Open `index.html` in a browser to preview it.
 
 ## Add a game
 
 Copy one of the `<li>` cards in `index.html` and change the link, name, description, and tags.
+
+## Pumpkin mascot
+
+`pumpkin.js` draws a playable pixel-art jack-o'-lantern on a canvas strip above the footer. Arrow keys or WASD
+walk and jump (space works too), and touch devices get on-screen buttons. The sprite is built from pixel rules
+in that file, so there are no image assets to update.
 
 ## Theme
 

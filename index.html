@@ -70,6 +70,31 @@
     <p class="closing"><span class="tok-punct">];</span></p>
   </main>
 
+  <section class="pumpkin-strip" id="pumpkin-strip" aria-label="Pumpkin mascot" hidden>
+    <div class="pumpkin-head">
+      <div class="pumpkin-pad pumpkin-pad-move">
+        <button type="button" data-action="left" aria-label="Walk left">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <button type="button" data-action="right" aria-label="Walk right">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+      <p class="comment pumpkin-hint">
+        <span class="hint-keys">// pumpkin.js: &larr; &rarr; or a d to walk, space to jump</span>
+        <span class="hint-touch">// pumpkin.js</span>
+      </p>
+      <div class="pumpkin-pad pumpkin-pad-jump">
+        <button type="button" data-action="jump" aria-label="Jump">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 15l7-7 7 7"/></svg>
+          <span>jump</span>
+        </button>
+      </div>
+    </div>
+    <canvas id="pumpkin" class="pumpkin-canvas" role="img"
+      aria-label="A pixel-art jack-o'-lantern. Use the arrow keys or A and D to walk, and space or W to jump."></canvas>
+  </section>
+
   <footer class="foot">
     <span class="comment">/* &copy; <span id="year">2026</span> Union Street Gaming */</span>
   </footer>
@@ -85,5 +110,6 @@
       try { localStorage.setItem("theme", next); } catch {}
     });
   </script>
+  <script src="pumpkin.js" defer></script>
 </body>
 </html>
