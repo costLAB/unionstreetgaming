@@ -1,6 +1,6 @@
 # Union Street Gaming
 
-The site for unionstreetgaming.com: a game selector that links to our games (pesto.world, saberside.netlify.app).
+The site for unionstreetgaming.com: a game selector that links to our games (pesto.world, saber-side.onrender.com).
 Plain static HTML, CSS, and JS with no build step. Keep it that way unless a PR makes the case for one.
 
 ## Style
