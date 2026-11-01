@@ -5,7 +5,9 @@ Plain static HTML, CSS, and JS with no build step. Keep it that way unless a PR 
 
 ## Style
 
-- Simple and quiet like Render's UI, with Dracula typography: Fira Code, and code-styled headings and labels.
+- Simple and quiet like Render's UI, with Dracula colors and typography (Fira Code), laid out as plain cards.
+  No code styling: no syntax-colored tokens, brackets, or comment-style text.
+- The logo is a pixel-art orange jack-o-lantern (`logo.svg`, also the favicon) in the top left.
 - Colors are tokens on `:root` in `style.css`: Dracula in dark mode, Alucard in light mode. The page follows the
   system theme, and the toggle overrides it. Every change must look right in both.
 - It must work at phone width (no horizontal scroll) as well as on desktop.
